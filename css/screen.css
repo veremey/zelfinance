@@ -1,0 +1,80 @@
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+/*@warn "The compass/css3/shared module has been deprecated.
+You can silence this warning by importing compass/css3/deprecated-support instead.
+Please be aware that module will be removed in the next release.";
+
+@import "deprecated-support";*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="submit"], button { cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+body { font-family: CryptoPuvf, "PTSans", Arial, sans-serif; font-weight: normal; font-size: 13px; line-height: 1.33; }
+body a { text-decoration: none; }
+body strong { font-weight: bold; }
+body em { font-weight: italic; }
+
+.out { width: 1000px; margin: 0 auto; padding: 0 20px; *zoom: 1; }
+.out:after { content: " "; display: table; clear: both; }
+
+.header { height: 135px; position: relative; color: #5b5b5b; }
+.header:after { content: ""; position: absolute; bottom: 0px; left: 0; right: 0; height: 3px; background-image: url(../img/h_zub.png); z-index: 7; }
+
+.logo { position: relative; float: left; width: 288px; height: 135px; margin-right: 125px; text-align: center; text-indent: -1000px; }
+.logo i { background-image: url("../img/logo.png"); height: 65px; width: 288px; display: block; }
+
+.header__contact { position: relative; float: left; margin: 40px 110px 0 0; width: 215px; color: #5b5b5b; }
+.header__contact i { position: absolute; top: 3px; left: -20px; width: 12px; height: 33px; background-image: url("../img/h__phone.png"); }
+.header__contact-tel { display: inline-block; font-size: 18px; font-weight: bold; color: #5b5b5b; }
+.header__contact-skype { position: relative; display: inline-block; color: #5b5b5b; }
+.header__contact-skype:before { content: ""; position: absolute; top: 2px; left: -20px; width: 14px; height: 12px; background-image: url("../img/skype.png"); }
+
+.header__user { margin-top: 40px; width: 185px; float: left; line-height: 20px; }
+.header__user-name { font-size: 13px; text-align: justify; color: #5b5b5b; font-weight: 300; }
+.header__user-item { position: relative; margin-left: 33px; color: #5b5b5b; border-bottom: 1px solid #5b5b5b; }
+.header__user-item:hover { border-bottom: 1px solid transparent; }
+.header__user-item > .cab, .header__user-item > .mes { position: absolute; top: -2px; left: -32px; width: 22px; height: 16px; background-image: url("../img/h__cabin.png"); }
+.header__user-item > .mes { height: 21px; background-image: url("../img/h__newmassage.png"); text-align: center; }
+
+.header__exit { float: right; width: 60px; color: #5b5b5b; margin-top: 40px; line-height: 20px; text-align: center; font-size: 15px; font-weight: bold; border: 1px solid #5b5b5b; -webkit-border-radius: 3px; border-radius: 3px; }
+
+.footer { position: relative; display: block; height: 87px; background-image: url("../img/f_bg.png"); *zoom: 1; }
+.footer:after { content: " "; display: table; clear: both; }
+.footer:before { content: ""; position: absolute; height: 4px; top: 0; left: 0; right: 0; background-image: url("../img/f_zub.png"); }
+
+.footer__wrap { width: 785px; float: left; line-height: 85px; }
+
+.footer__item { display: inline-block; margin-right: 6px; }
+.footer__item:last-child { margin: 0; }
+
+.footer__link { color: #5b5b5b; font-size: 13px; border-bottom: 1px solid #5b5b5b; }
+.footer__link:hover { border-bottom: none; }
+
+.footer__copy { line-height: 85px; width: 160px; float: right; color: #7e898e; }
+.footer__copy strong { color: #75922e; }
+
+.main { height: 1000px; background-image: url("../img/main_bg.png"); }

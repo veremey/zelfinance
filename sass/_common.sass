@@ -1,0 +1,155 @@
+body
+	font:
+		family: CryptoPuvf, 'PTSans', Arial,sans-serif
+		weight: normal
+		size: 13px
+	line-height: 1.33
+	a
+		text-decoration: none
+	strong
+		font-weight: bold
+	em
+		font-weight: italic
+.out
+	width: 1000px
+	margin: 0 auto
+	padding: 0 20px
+	+clr
+.header
+	height: 135px
+	position: relative
+	color: #5B5B5B
+	&:after
+		content: ""
+		position: absolute
+		bottom: 0px
+		left: 0
+		right: 0
+		height: 3px
+		background-image: url(../img/h_zub.png)
+		z-index: 7
+
+.logo
+	position: relative
+	float: left
+	width: 288px
+	height: 135px
+	margin-right: 125px
+	text-align: center
+	text-indent: -1000px
+	i
+		background-image: url("../img/logo.png")
+		height: 65px
+		width: 288px
+		display: block
+.header__contact
+	position: relative
+	float: left
+	margin: 40px 110px 0 0
+	width: 215px
+	color: #5B5B5B
+	i
+		position: absolute
+		top: 3px
+		left: -20px
+		width: 12px
+		height: 33px
+		background-image: url("../img/h__phone.png")
+	&-tel
+		display: inline-block
+		font-size: 18px
+		font-weight: bold
+		color: #5B5B5B
+	&-skype
+		position: relative
+		display: inline-block
+		color: #5B5B5B
+		&:before
+			content: ""
+			position: absolute
+			top: 2px
+			left: -20px
+			width: 14px
+			height: 12px
+			background-image: url("../img/skype.png")
+.header__user
+	margin-top: 40px
+	width: 185px
+	float: left
+	line-height: 20px
+	&-name
+		font-size: 13px  //15px
+		text-align: justify
+		color: #5b5b5b
+		font-weight: 300
+	&-item
+		position: relative
+		margin-left: 33px
+		color: #5b5b5b
+		border-bottom: 1px solid #5b5b5b
+		&:hover
+			border-bottom: 1px solid transparent
+		> .cab,
+		> .mes
+			position: absolute
+			top: -2px
+			left: -32px
+			width: 22px
+			height: 16px
+			background-image: url("../img/h__cabin.png")
+		> .mes
+			height: 21px
+			background-image: url("../img/h__newmassage.png")
+			text-align: center
+.header__exit
+	float: right
+	width: 60px
+	color: #5B5B5B
+	margin-top: 40px
+	line-height: 20px
+	text-align: center
+	font-size: 15px
+	font-weight: bold
+	border: 1px solid #5b5b5b
+	-webkit-border-radius: 3px
+	border-radius: 3px
+
+
+// FOTER
+
+.footer
+	position: relative
+	display: block
+	height: 87px
+	background-image: url("../img/f_bg.png")
+	+clr
+	&:before
+		content: ""
+		position: absolute
+		height: 4px
+		top: 0
+		left: 0
+		right: 0
+		background-image: url("../img/f_zub.png")
+.footer__wrap
+	width: 785px
+	float: left
+	line-height: 85px
+.footer__item
+	display: inline-block
+	margin-right: 6px
+	&:last-child
+		margin: 0
+.footer__link
+	color: #5b5b5b
+	font-size: 13px
+	border-bottom: 1px solid #5b5b5b
+	&:hover
+		border-bottom: none
+.footer__copy
+	line-height: 85px
+	width: 160px
+	float: right
+	color: #7E898E
+	strong
+		color: #75922e

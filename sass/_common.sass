@@ -28,7 +28,11 @@ body
 		height: 3px
 		background-image: url(../img/h_zub.png)
 		z-index: 7
-
+.header__logo
+	@extend .logo
+	position: relative
+	float: left
+	+clr
 .logo
 	position: relative
 	float: left
@@ -42,6 +46,28 @@ body
 		height: 65px
 		width: 288px
 		display: block
+.language
+	position: absolute
+	width: 80px
+	height: 20px
+	top: 88px
+	left: 78px
+	&__ru,
+	&__en
+		float: left
+		margin-right: 6px
+		width: 16px
+		height: 11px
+		background-image: url("../img/flag_ru.png")
+		border: none
+	&__en
+		background-image: url("../img/flag_en.png")
+	> .active
+		cursor: default
+		opacity: .3
+.re
+	-webkit-box-shadow: inset 9px 9px 9px 9px #000
+	box-shadow: inset 9px 9px 9px 9px #000
 .header__contact
 	position: relative
 	float: left

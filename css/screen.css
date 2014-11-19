@@ -44,8 +44,18 @@ body em { font-weight: italic; }
 .header { height: 135px; position: relative; color: #5b5b5b; }
 .header:after { content: ""; position: absolute; bottom: 0px; left: 0; right: 0; height: 3px; background-image: url(../img/h_zub.png); z-index: 7; }
 
-.logo { position: relative; float: left; width: 288px; height: 135px; margin-right: 125px; text-align: center; text-indent: -1000px; }
-.logo i { background-image: url("../img/logo.png"); height: 65px; width: 288px; display: block; }
+.header__logo { position: relative; float: left; *zoom: 1; }
+.header__logo:after { content: " "; display: table; clear: both; }
+
+.logo, .header__logo { position: relative; float: left; width: 288px; height: 135px; margin-right: 125px; text-align: center; text-indent: -1000px; }
+.logo i, .header__logo i { background-image: url("../img/logo.png"); height: 65px; width: 288px; display: block; }
+
+.language { position: absolute; width: 80px; height: 20px; top: 88px; left: 78px; }
+.language__ru, .language__en { float: left; margin-right: 6px; width: 16px; height: 11px; background-image: url("../img/flag_ru.png"); border: none; }
+.language__en { background-image: url("../img/flag_en.png"); }
+.language > .active { cursor: default; opacity: 0.3; }
+
+.re { -webkit-box-shadow: inset 9px 9px 9px 9px black; box-shadow: inset 9px 9px 9px 9px black; }
 
 .header__contact { position: relative; float: left; margin: 40px 110px 0 0; width: 215px; color: #5b5b5b; }
 .header__contact i { position: absolute; top: 3px; left: -20px; width: 12px; height: 33px; background-image: url("../img/h__phone.png"); }

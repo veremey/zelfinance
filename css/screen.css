@@ -87,4 +87,16 @@ body em { font-weight: italic; }
 .footer__copy { line-height: 85px; width: 160px; float: right; color: #7e898e; }
 .footer__copy strong { color: #75922e; }
 
-.main { height: 1000px; background-image: url("../img/main_bg.png"); }
+.main { *zoom: 1; }
+.main > .out { padding-top: 30px; background-image: url("../img/main_bg.png"); }
+.main:after { content: " "; display: table; clear: both; }
+
+.menu { position: relative; background-color: #abc765; border-bottom: 8px solid #92aa5a; *zoom: 1; }
+.menu:after { content: " "; display: table; clear: both; }
+.menu .menu__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; }
+.menu__item { position: relative; display: inline-block; }
+.menu__item:first-child { width: 59px; height: 30px; }
+.menu__item:nth-child(2) { position: relative; margin-right: 20px; }
+.menu__link { display: block; font-size: 17px; color: white; line-height: 49px; margin: 0 21px; }
+.menu__link .home { position: absolute; top: -17px; left: 18px; width: 25px; height: 19px; background-image: url("../img/home.png"); }
+.menu__link .triagle { position: absolute; top: 21px; right: 0px; width: 11px; height: 10px; background-image: url("../img/menu__triagle.png"); }

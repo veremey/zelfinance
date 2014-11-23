@@ -1,5 +1,50 @@
 // MAIN
 
 .main
-	height: 1000px
-	background-image: url("../img/main_bg.png")
+	> .out
+		padding-top: 30px
+		background-image: url("../img/main_bg.png")
+	+clr
+.menu
+	position: relative
+	background-color: #ABC765
+	border-bottom: 8px solid #92AA5A
+	+clr
+	.menu__line
+		position: absolute
+		top: 2px
+		left: 0
+		right: 0
+		height: 1px
+		background-color: #BED783
+	&__item
+		position: relative
+		display: inline-block
+		&:first-child
+			width: 59px
+			height: 30px
+		&:nth-child(2)
+			position: relative
+			margin-right: 20px
+	&__link
+		display: block
+		font-size: 17px
+		color: #fff
+		line-height: 49px
+		margin: 0 21px
+		.home
+			position: absolute
+			top: -17px
+			left: 18px
+			width: 25px
+			height: 19px
+			background-image: url("../img/home.png")
+		.triagle
+			position: absolute
+			top: 21px
+			right: 0px
+			width: 11px
+			height: 10px
+			background-image: url("../img/menu__triagle.png")
+
+

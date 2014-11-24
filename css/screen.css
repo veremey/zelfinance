@@ -48,7 +48,7 @@ body em { font-weight: italic; }
 .header__logo:after { content: " "; display: table; clear: both; }
 
 .logo, .header__logo { position: relative; float: left; width: 288px; height: 135px; margin-right: 125px; text-align: center; text-indent: -1000px; }
-.logo i, .header__logo i { background-image: url("../img/logo.png"); height: 65px; width: 288px; display: block; }
+.logo i, .header__logo i { background-image: url("../img/logo.png"); height: 64px; width: 288px; display: block; }
 
 .language { position: absolute; width: 80px; height: 20px; top: 88px; left: 78px; }
 .language__ru, .language__en { float: left; margin-right: 6px; width: 16px; height: 11px; background-image: url("../img/flag_ru.png"); border: none; }
@@ -87,16 +87,28 @@ body em { font-weight: italic; }
 .footer__copy { line-height: 85px; width: 160px; float: right; color: #7e898e; }
 .footer__copy strong { color: #75922e; }
 
-.main { *zoom: 1; }
-.main > .out { padding-top: 30px; background-image: url("../img/main_bg.png"); }
+.main { background-image: url("../img/main_bg.png"); *zoom: 1; }
+.main > .out { padding-top: 30px; }
 .main:after { content: " "; display: table; clear: both; }
 
 .menu { position: relative; background-color: #abc765; border-bottom: 8px solid #92aa5a; *zoom: 1; }
 .menu:after { content: " "; display: table; clear: both; }
-.menu .menu__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; }
+.menu .menu__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; z-index: 99; }
 .menu__item { position: relative; display: inline-block; }
 .menu__item:first-child { width: 59px; height: 30px; }
-.menu__item:nth-child(2) { position: relative; margin-right: 20px; }
-.menu__link { display: block; font-size: 17px; color: white; line-height: 49px; margin: 0 21px; }
-.menu__link .home { position: absolute; top: -17px; left: 18px; width: 25px; height: 19px; background-image: url("../img/home.png"); }
-.menu__link .triagle { position: absolute; top: 21px; right: 0px; width: 11px; height: 10px; background-image: url("../img/menu__triagle.png"); }
+.menu__item:nth-child(2) { margin-right: 20px; }
+.menu__link, .submenu__link { display: block; font-size: 17px; color: white; line-height: 49px; padding: 0 21px; }
+.menu__link:hover, .submenu__link:hover { background-color: #92b244; }
+.menu__link:hover:after, .submenu__link:hover:after { content: ""; position: absolute; top: 1px; left: 0; right: 0; height: 1px; background-color: #92aa5a; }
+.menu__link .home, .submenu__link .home { position: absolute; top: -17px; left: 18px; width: 25px; height: 19px; background-image: url("../img/home.png"); }
+.menu__link .triagle, .submenu__link .triagle { position: absolute; top: 21px; right: 20px; width: 11px; height: 10px; background-image: url("../img/menu__triagle.png"); }
+
+.pr20 { padding-right: 40px; }
+
+.submenu { display: none; position: absolute; top: 49px; border-bottom: 9px solid #92b244; z-index: 2; }
+.submenu__link { width: 254px; position: relative; background-color: #92b244; z-index: 3; }
+.submenu__link:before, .submenu__link:after { content: ""; position: absolute; top: 0px; left: 0; right: 0; height: 1px; background-color: #92aa5a; }
+.submenu__link:after { top: 1px; background-color: #a8c26b; }
+
+.menu__item:hover { background-color: #92b244; }
+.menu__item:hover > .submenu { display: block; }

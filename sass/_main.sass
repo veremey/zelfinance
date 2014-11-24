@@ -1,9 +1,9 @@
 // MAIN
 
 .main
+	background-image: url("../img/main_bg.png")
 	> .out
 		padding-top: 30px
-		background-image: url("../img/main_bg.png")
 	+clr
 .menu
 	position: relative
@@ -16,7 +16,8 @@
 		left: 0
 		right: 0
 		height: 1px
-		background-color: #BED783
+		background-color: #bed783
+		z-index: 99
 	&__item
 		position: relative
 		display: inline-block
@@ -24,14 +25,23 @@
 			width: 59px
 			height: 30px
 		&:nth-child(2)
-			position: relative
 			margin-right: 20px
 	&__link
 		display: block
 		font-size: 17px
 		color: #fff
 		line-height: 49px
-		margin: 0 21px
+		padding: 0 21px
+		&:hover
+			background-color: #92B244
+			&:after
+				content: ""
+				position: absolute
+				top: 1px
+				left: 0
+				right: 0
+				height: 1px
+				background-color: #92aa5a
 		.home
 			position: absolute
 			top: -17px
@@ -42,9 +52,39 @@
 		.triagle
 			position: absolute
 			top: 21px
-			right: 0px
+			right: 20px
 			width: 11px
 			height: 10px
 			background-image: url("../img/menu__triagle.png")
+.pr20
+	padding-right: 40px
 
 
+.submenu
+	display: none
+	position: absolute
+	top: 49px
+	border-bottom: 9px solid #92b244
+	z-index: 2
+	&__link
+		@extend .menu__link
+		width: 254px
+		position: relative
+		background-color: #92b244
+		z-index: 3
+		&:before,
+		&:after
+			content: ""
+			position: absolute
+			top: 0px
+			left: 0
+			right: 0
+			height: 1px
+			background-color: #92aa5a
+		&:after
+			top: 1px
+			background-color: #a8c26b
+.menu__item:hover
+	background-color: #92B244
+	> .submenu
+		display: block

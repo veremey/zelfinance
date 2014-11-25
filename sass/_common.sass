@@ -11,9 +11,9 @@ body
 	em
 		font-weight: italic
 .out
-	width: 1000px
+	width: 980px
 	margin: 0 auto
-	padding: 0 20px
+	// padding: 0 20px
 	+clr
 .header
 	height: 135px
@@ -40,7 +40,7 @@ body
 	height: 135px
 	margin-right: 125px
 	text-align: center
-	text-indent: -1000px
+	text-indent: -2000px
 	i
 		background-image: url("../img/logo.png")
 		height: 64px
@@ -71,7 +71,7 @@ body
 .header__contact
 	position: relative
 	float: left
-	margin: 40px 110px 0 0
+	margin: 40px 100px 0 0
 	width: 215px
 	color: #5B5B5B
 	i
@@ -142,11 +142,12 @@ body
 
 
 // FOTER
-
 .footer
 	position: relative
-	display: block
 	height: 87px
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
 	background-image: url("../img/f_bg.png")
 	+clr
 	&:before

@@ -38,6 +38,8 @@ body a { text-decoration: none; }
 body strong { font-weight: bold; }
 body em { font-weight: italic; }
 
+.clear { clear: both; height: 0; }
+
 .out { width: 980px; margin: 0 auto; *zoom: 1; }
 .out:after { content: " "; display: table; clear: both; }
 
@@ -95,11 +97,9 @@ body em { font-weight: italic; }
 .menu:after { content: " "; display: table; clear: both; }
 .menu .menu__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; z-index: 99; }
 .menu__item { position: relative; display: inline-block; }
-.menu__item:first-child { width: 59px; height: 30px; }
-.menu__item:nth-child(2) { margin-right: 20px; }
 .menu__link, .submenu__link { display: block; font-size: 17px; color: white; line-height: 49px; padding: 0 21px; }
 .menu__link:hover, .submenu__link:hover { background-color: #92b244; }
-.menu__link .home, .submenu__link .home { position: absolute; top: -17px; left: 18px; width: 25px; height: 19px; background-image: url("../img/home.png"); }
+.menu__link .home, .submenu__link .home { display: inline-block; top: 2px; left: 18px; width: 25px; height: 19px; background-image: url("../img/home.png"); }
 .menu__link .triagle, .submenu__link .triagle { position: absolute; top: 21px; right: 20px; width: 11px; height: 10px; background-image: url("../img/menu__triagle.png"); }
 
 .pr20 { padding-right: 40px; }
@@ -138,16 +138,24 @@ body em { font-weight: italic; }
 
 .slider__menu-item { font-size: 15px; font-style: italic; line-height: 15px; }
 
-.baner { width: 930px; height: 110px; margin-left: 30px; padding: 12px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
-.baner:after { content: " "; display: table; clear: both; }
+.baner { position: relative; width: 930px; height: 110px; margin-left: 30px; padding: 12px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.baner:before { content: ""; position: absolute; top: 0; left: -17px; width: 0; height: 0; border-style: solid; border-width: 0 0 110px 17px; border-color: transparent transparent white transparent; }
+.baner:after { content: ""; position: absolute; top: 0; right: -17px; width: 0; height: 0; border-style: solid; border-width: 110px 17px 0 0; border-color: white transparent transparent transparent; }
 
-.baner__company { position: relative; float: left; width: 160px; margin: 0 30px 0 40px; }
+.baner__prev, .baner__after { position: absolute; top: 50px; width: 20px; height: 18px; background-image: url("../img/st_l.png"); }
+
+.baner__prev { left: -40px; }
+
+.baner__after { right: -40px; background-image: url("../img/st_r.png"); }
+
+.baner__company { position: relative; float: left; width: 160px; max-height: 83px; margin: 0 30px 0 40px; }
+.baner__company:hover .baner__h4, .baner__company:hover .baner__propose, .baner__company:hover .baner__propose p { border-bottom: 1px solid transparent; -webkit-transition: all 0.15s; -moz-transition: all 0.15s; -ms-transition: all 0.15s; -o-transition: all 0.15s; transition: all 0.15s; }
 .baner__company:last-child { margin-right: 0; }
-.baner__company img { position: absolute; top: 0px; left: -40px; border: 1px solid #d1d3d4; }
+.baner__company img { position: absolute; top: 0px; left: -45px; width: 35px; height: 36px; border: 1px solid #d1d3d4; }
 
 .baner__title { margin-bottom: 10px; }
 
 .baner__h4 { position: relative; width: 155px; font-size: 15px; line-height: 15px; display: inline; color: #75922e; border-bottom: 1px solid #75922e; }
 
-.baner__propose { width: 165px; height: 45px; white-space: nowrap; font-size: 13px; line-height: 15px; color: #75922e; overflow: hidden; -ms-text-overflow: clip; text-overflow: clip; }
-.baner__propose p { display: inline; border-bottom: 1px solid #75922e; overflow: hidden; white-space: nowrap; -ms-text-overflow: clip; text-overflow: clip; }
+.baner__propose { width: 165px; max-height: 46px; white-space: nowrap; font-size: 13px; line-height: 15px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+.baner__propose p { display: inline; border-bottom: 1px solid #75922e; }

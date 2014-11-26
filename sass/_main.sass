@@ -21,11 +21,6 @@
 	&__item
 		position: relative
 		display: inline-block
-		&:first-child
-			width: 59px
-			height: 30px
-		&:nth-child(2)
-			margin-right: 20px
 	&__link
 		display: block
 		font-size: 17px
@@ -35,8 +30,8 @@
 		&:hover
 			background-color: #92B244
 		.home
-			position: absolute
-			top: -17px
+			display: inline-block
+			top: 2px
 			left: 18px
 			width: 25px
 			height: 19px
@@ -164,6 +159,7 @@
 //BANER
 
 .baner
+	position: relative
 	width: 930px
 	height: 110px
 	margin-left: 30px
@@ -173,18 +169,62 @@
 	-webkit-box-sizing: border-box
 	-moz-box-sizing: border-box
 	box-sizing: border-box
-	+clr
+	&:before
+		content: ""
+		position: absolute
+		top: 0
+		left: -17px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 0 0 110px 17px
+		border-color: transparent transparent #fff transparent
+	&:after
+		content: ""
+		position: absolute
+		top: 0
+		right: -17px
+		width: 0
+		height: 0
+		border-style: solid
+		border-width: 110px 17px 0 0
+		border-color: #fff transparent transparent transparent
+.baner__prev,
+.baner__after
+	position: absolute
+	top: 50px
+	width: 20px
+	height: 18px
+	background-image: url("../img/st_l.png")
+.baner__prev
+	left: -40px
+.baner__after
+	right: -40px
+	background-image: url("../img/st_r.png")
 .baner__company
 	position: relative
 	float: left
 	width: 160px
+	max-height: 83px
 	margin: 0 30px 0 40px
+	&:hover
+		.baner__h4,
+		.baner__propose,
+		.baner__propose p
+			border-bottom: 1px solid transparent
+			-webkit-transition: all .15s
+			-moz-transition: all .15s
+			-ms-transition: all .15s
+			-o-transition: all .15s
+			transition: all .15s
 	&:last-child
 		margin-right: 0
 	img
 		position: absolute
 		top: 0px
-		left: -40px
+		left: -45px
+		width: 35px
+		height: 36px
 		border: 1px solid #D1D3D4
 .baner__title
 	margin-bottom: 10px
@@ -198,19 +238,19 @@
 	border-bottom: 1px solid #75922E
 .baner__propose
 	width: 165px
-	height: 45px
+	max-height: 46px
 	// display: inline
 	white-space: nowrap
 	font-size: 13px
 	line-height: 15px
 	color: #75922E
 	overflow: hidden
-	-ms-text-overflow: clip
-	text-overflow: clip
+	-ms-text-overflow: ellipsis
+	text-overflow: ellipsis
 	p
 		display: inline
 		border-bottom: 1px solid #75922E
-		overflow: hidden
-		white-space: nowrap
-		-ms-text-overflow: clip
-		text-overflow: clip
+		// overflow: hidden
+		// white-space: nowrap
+		// -ms-text-overflow: ellipsis
+		// text-overflow: ellipsis

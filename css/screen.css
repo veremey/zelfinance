@@ -55,7 +55,7 @@ body em { font-weight: italic; }
 .language { position: absolute; width: 80px; height: 20px; top: 88px; left: 78px; }
 .language__ru, .language__en { float: left; margin-right: 6px; width: 16px; height: 11px; background-image: url("../img/flag_ru.png"); border: none; }
 .language__en { background-image: url("../img/flag_en.png"); }
-.language > .active { cursor: default; opacity: 0.3; }
+.language > .is-active { cursor: default; opacity: 0.3; }
 
 .re { -webkit-box-shadow: inset 9px 9px 9px 9px black; box-shadow: inset 9px 9px 9px 9px black; }
 

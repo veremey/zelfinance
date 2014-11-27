@@ -160,10 +160,14 @@ body em { font-weight: italic; }
 .baner__propose { width: 165px; max-height: 46px; white-space: nowrap; font-size: 13px; line-height: 15px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 .baner__propose p { display: inline; border-bottom: 1px solid #75922e; }
 
-.consultant { position: relative; width: 930px; margin-left: 30px; *zoom: 1; }
+.consultant { position: relative; width: 930px; margin: 0 30px 30px 0; *zoom: 1; }
 .consultant:after { content: " "; display: table; clear: both; }
 
 .consultant__wrap { float: left; }
 
-.consultant__img { width: 214px; height: 244px; margin-right: 20px; }
+.consultant__img { width: 214px; height: 244px; margin-right: 20px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0px 16px 11px -19px black; -webkit-box-shadow: 0px 16px 11px -19px black; box-shadow: 0px 16px 11px -19px black; }
 .consultant__img:last-child { margin-right: 0; }
+
+.consultant__all { border-top: 2px dashed white; margin-bottom: 20px; padding: 10px 0; text-align: center; }
+.consultant__all a { color: #75922e; margin: 0 auto; border-bottom: 1px solid #75922e; }
+.consultant__all a:hover { border-bottom: 1px solid transparent; }

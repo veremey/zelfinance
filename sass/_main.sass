@@ -264,7 +264,7 @@
 .consultant
 	position: relative
 	width: 930px
-	margin-left: 30px
+	margin: 0 30px 30px 0
 	+clr
 .consultant__wrap
 	float: left
@@ -272,6 +272,19 @@
 	width: 214px
 	height: 244px
 	margin-right: 20px
+	-webkit-border-radius: 10px
+	border-radius: 10px
+	+box-shadow(0px 16px 11px -19px #000)
 	&:last-child
 		margin-right: 0
-
+.consultant__all
+	border-top: 2px dashed #fff
+	margin-bottom: 20px
+	padding: 10px 0
+	text-align: center
+	a
+		color: #75922E
+		margin: 0 auto
+		border-bottom: 1px solid #75922E
+		&:hover
+			border-bottom: 1px solid transparent

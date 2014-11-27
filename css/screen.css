@@ -138,7 +138,7 @@ body em { font-weight: italic; }
 
 .slider__menu-item { font-size: 15px; font-style: italic; line-height: 15px; }
 
-.baner { position: relative; width: 930px; height: 110px; margin-left: 30px; padding: 12px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.baner { position: relative; width: 930px; height: 110px; margin: 0 0 50px 30px; padding: 12px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-box-shadow: 0px 30px 30px -32px black; -webkit-box-shadow: 0px 30px 30px -32px black; box-shadow: 0px 30px 30px -32px black; }
 .baner:before { content: ""; position: absolute; top: 0; left: -17px; width: 0; height: 0; border-style: solid; border-width: 0 0 110px 17px; border-color: transparent transparent white transparent; }
 .baner:after { content: ""; position: absolute; top: 0; right: -17px; width: 0; height: 0; border-style: solid; border-width: 110px 17px 0 0; border-color: white transparent transparent transparent; }
 
@@ -159,3 +159,10 @@ body em { font-weight: italic; }
 
 .baner__propose { width: 165px; max-height: 46px; white-space: nowrap; font-size: 13px; line-height: 15px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 .baner__propose p { display: inline; border-bottom: 1px solid #75922e; }
+
+.consultant { position: relative; width: 930px; margin-left: 30px; *zoom: 1; }
+.consultant:after { content: " "; display: table; clear: both; }
+
+.consultant__wrap { float: left; width: 215px; border: 1px solid #b7b6b6; -webkit-border-radius: 15px; border-radius: 15px; }
+
+.consultant__img { width: 33px; height: 34px; margin-left: 5px; }

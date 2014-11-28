@@ -108,6 +108,8 @@ body em { font-weight: italic; }
 
 .propose__title { color: #ec2d13; border-bottom: 1px solid #ec2d13; }
 
+.propose__all { color: #ec2d13; border-bottom: 1px solid #ec2d13; }
+
 .main { background-image: url("../img/main_bg.png"); *zoom: 1; }
 .main > .out { padding: 30px; }
 .main:after { content: " "; display: table; clear: both; }

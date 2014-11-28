@@ -1,0 +1,61 @@
+// ##########
+// l-container
+
+.event,
+.propose,
+.work
+	float: left
+	width: 296px
+	font-family: PTSans, sans-serif
+.propose
+	margin: 0 48px
+.l-container__title
+	font-size: 20px
+	color: #B2B7B8
+	margin-bottom: 30px
+	text-shadow: 1px 1px 1px #fff
+	text-transform: uppercase
+.l-container__wrap
+	display: block
+	padding-bottom: 30px
+	&:nth-child(6)
+		border-bottom: 3px dashed #fff
+.event__date
+	font-size: 13px
+	line-height: 20px
+	color: #99A0A1
+.event__title
+	display: inline
+	font-size: 17px
+	line-height: 20px
+	border-bottom: 1px solid #000
+	color: #000
+.event__item
+	font-size: 15px
+	line-height: 20px
+	color: #474747
+	height: 60px
+	margin-top: 10px
+	overflow: hidden
+	white-space: nowrap
+	-ms-text-overflow: ellipsis
+	text-overflow: ellipsis
+
+.event__all
+	display: inline-block
+	font-size: 17px
+	border-bottom: 1px solid #75922e
+	color: #75922e
+	margin-top: 12px
+
+
+// PROPOSE
+
+.propose__title
+	@extend .event__title
+	color: #EC2D13
+	border-bottom: 1px solid #EC2D13
+.propose__item
+	@extend .event__item
+.propose__all
+	@extend .event__all

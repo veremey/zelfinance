@@ -111,12 +111,16 @@ body em { font-weight: italic; }
 .propose__all { color: #ec2d13; border-bottom: 1px solid #ec2d13; }
 
 .work__consultant { position: relative; color: white; width: 245px; height: 132px; padding: 10px 20px; background-color: #9ebf4e; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-bottom: 9px solid #829d42; }
-.work__consultant:after { content: ""; position: absolute; top: 0; right: -50px; border-left: 9px solid #829d42; width: 0px; height: 0px; border-style: solid; border-width: 61.5px 0 61.5px 50px; border-color: transparent transparent transparent #9ebf4e; }
+.work__consultant:after { content: ""; position: absolute; top: 0; right: -50px; width: 0px; height: 0px; border-style: solid; border-width: 61.5px 0 61.5px 50px; border-color: transparent transparent transparent #9ebf4e; }
 .work__consultant:before { content: ""; position: absolute; top: 9px; right: -50px; width: 0px; height: 0px; border-style: solid; border-width: 61.5px 0 61.5px 50px; border-color: transparent transparent transparent #829d42; }
 
 .work__consultant-title { font-size: 18px; line-height: 20px; text-shadow: 1px 1px #6d8436; }
 
 .work__consultant-item { margin-top: 15px; line-height: 15px; }
+
+.course { border: 1px solid white; margin-top: 30px; padding: 15px 35px; *zoom: 1; }
+.course:after { content: " "; display: table; clear: both; }
+.course .course__usd, .course .course__euro { float: left; width: 50%; }
 
 .main { background-image: url("../img/main_bg.png"); *zoom: 1; }
 .main > .out { padding: 30px; }
@@ -132,7 +136,7 @@ body em { font-weight: italic; }
 
 .pr20 { padding-right: 40px; }
 
-.menu__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; z-index: 99; }
+.green__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; z-index: 99; }
 
 .submenu { display: none; position: absolute; top: 49px; border-bottom: 9px solid #829d42; z-index: 2; }
 .submenu__link { width: 254px; position: relative; background-color: #92b244; z-index: 3; }

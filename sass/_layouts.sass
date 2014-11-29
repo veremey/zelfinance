@@ -8,7 +8,7 @@
 	width: 296px
 	font-family: PTSans, sans-serif
 .propose
-	margin: 0 48px
+	margin: 0 45px
 .l-container__title
 	font-size: 20px
 	color: #B2B7B8
@@ -31,6 +31,7 @@
 	border-bottom: 1px solid #000
 	color: #000
 .event__item
+	position: relative
 	font-size: 15px
 	line-height: 20px
 	color: #474747
@@ -61,3 +62,38 @@
 	@extend .event__all
 	color: #EC2D13
 	border-bottom: 1px solid #EC2D13
+
+	// #####################3
+	// WORK
+
+.work__consultant
+	position: relative
+	color: #FFF
+	width: 245px
+	height: 132px
+	padding: 10px 20px
+	background-color: #9EBF4E
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	border-bottom: 9px solid #829d42
+	&:after
+		content: ""
+		position: absolute
+		top: 0
+		right: -50px
+		border-left: 9px solid #829d42
+		+arr(50,123,#9EBF4E,r)
+	&:before
+		content: ""
+		position: absolute
+		top: 9px
+		right: -50px
+		+arr(50,123,#829d42,r)
+.work__consultant-title
+	font-size: 18px
+	line-height: 20px
+	text-shadow: 1px 1px #6d8436
+.work__consultant-item
+	margin-top: 15px
+	line-height: 15px

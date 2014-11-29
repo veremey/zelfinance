@@ -120,7 +120,39 @@ body em { font-weight: italic; }
 
 .course { border: 1px solid white; margin-top: 30px; padding: 15px 35px; *zoom: 1; }
 .course:after { content: " "; display: table; clear: both; }
-.course .course__usd, .course .course__euro { float: left; width: 50%; }
+
+.course__usd, .course__euro { position: relative; float: left; width: 50%; }
+.course__usd img, .course__euro img { float: left; }
+
+.course__euro img { margin-top: 3px; }
+
+.course__up, .course__down { position: absolute; top: 17px; left: 28px; }
+
+.course__up { width: 0px; height: 0px; border-style: solid; border-width: 0 4.5px 6px 4.5px; border-color: transparent transparent #829d42 transparent; }
+
+.course__down { width: 0px; height: 0px; border-style: solid; border-width: 6px 4.5px 0 4.5px; border-color: #ec2d13 transparent transparent transparent; }
+
+.course__profit { display: inline-block; margin-left: 30px; }
+
+.course__item { font-size: 15px; line-height: 20px; }
+
+.course__item-up { color: #829d42; }
+
+.course__item-down { color: #ec2d13; }
+
+.finance__liga { position: relative; margin: 25px 0; }
+
+.finace__liga-wrap { position: absolute; top: 43px; left: 55px; }
+
+.fin__consalt { *zoom: 1; }
+.fin__consalt:after { content: " "; display: table; clear: both; }
+
+.fin__consalt-masanger, .fin__consalt-tel { width: 50%; float: left; color: white; margin-top: 5px; font-size: 12px; }
+.fin__consalt-masanger a, .fin__consalt-tel a { position: relative; display: inline-block; color: black; }
+
+.fin__consalt-masanger a:last-child { margin-left: 20px; }
+
+.skype_small { position: absolute; top: 2px; left: -20px; width: 12px; height: 11px; background-image: url("../img/skype_small.png"); }
 
 .main { background-image: url("../img/main_bg.png"); *zoom: 1; }
 .main > .out { padding: 30px; }

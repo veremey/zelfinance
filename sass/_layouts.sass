@@ -83,6 +83,7 @@
 		top: 0
 		right: -50px
 		+arr(50,123,#9EBF4E,r)
+		// Прорисати сюда тень зверху вниз 9пик
 	&:before
 		content: ""
 		position: absolute
@@ -102,7 +103,63 @@
 	margin-top: 30px
 	padding: 15px 35px
 	+clr
-	.course__usd,
-	.course__euro
+.course__usd,
+.course__euro
+	position: relative
+	float: left
+	width: 50%
+	img
 		float: left
-		width: 50%
+.course__euro img
+	margin-top: 3px
+.course__up,
+.course__down
+	position: absolute
+	top: 17px
+	left: 28px
+.course__up
+	+arr(9,6,#829d42,t)
+.course__down
+	+arr(9,6,#ec2d13,b)
+.course__profit
+	display: inline-block
+	margin-left: 30px
+.course__item
+	font-size: 15px
+	line-height: 20px
+.course__item-up
+	color: #829D42
+.course__item-down
+	color: #EC2D13
+
+.finance__liga
+	position: relative
+	margin: 25px 0
+.finace__liga-wrap
+	position: absolute
+	top: 43px
+	left: 55px
+.fin__consalt
+	+clr
+.fin__consalt-masanger,
+.fin__consalt-tel
+	width: 50%
+	float: left
+	color: #FFF
+	margin-top: 5px
+	font-size: 12px
+	a
+		position: relative
+		display: inline-block
+		color: #000
+.fin__consalt-masanger
+	a
+		&:last-child
+			margin-left: 20px
+.skype_small
+	position: absolute
+	top: 2px
+	left: -20px
+	width: 12px
+	height: 11px
+	background-image: url("../img/skype_small.png")

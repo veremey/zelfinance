@@ -183,29 +183,29 @@ body em { font-weight: italic; }
 .menu__item:hover > .submenu { display: block; }
 
 .slider { width: 980px; height: 308px; margin-bottom: 50px; overflow: hidden; -moz-box-shadow: 0px 44px 100px -60px black; -webkit-box-shadow: 0px 44px 100px -60px black; box-shadow: 0px 44px 100px -60px black; }
-.slider__spin { float: left; }
-.slider__spin img { width: 685px; height: 308px; }
+.slider__spin { float: left; border: 5px solid white; }
+.slider__spin img { width: 675px; height: 298px; }
 
-.slider__menu { float: right; width: 295px; background-color: #7fc0eb; *zoom: 1; }
-.slider__menu:after { content: " "; display: table; clear: both; }
+.insurance { float: right; width: 295px; background-color: #7fc0eb; *zoom: 1; }
+.insurance:after { content: " "; display: table; clear: both; }
 
-.slider__menu-link { position: relative; display: block; height: 77px; }
-.slider__menu-link:before, .slider__menu-link:after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background-color: #9bd3f6; }
-.slider__menu-link:after { top: 76px; background-color: #6aa9d9; }
-.slider__menu-link:hover { background-color: #53aae4; }
+.insurance__link { position: relative; display: block; height: 77px; }
+.insurance__link:before, .insurance__link:after { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 1px; background-color: #9bd3f6; }
+.insurance__link:after { top: 76px; background-color: #6aa9d9; }
+.insurance__link:hover { background-color: #53aae4; }
 
-.slider__menu-link_right { float: right; width: 194px; color: white; }
+.insurance__link-right { float: right; width: 194px; color: white; }
 
-.slider__menu-link_left { position: relative; width: 101px; height: 77px; float: left; }
-.slider__menu-link_left i { position: absolute; top: 24px; left: 36px; }
-.slider__menu-link_left .kasko { width: 26px; height: 29px; background-image: url("../img/kasko.png"); }
-.slider__menu-link_left .libre { width: 30px; height: 28px; background-image: url("../img/libre.png"); }
-.slider__menu-link_left .calc { width: 24px; height: 28px; background-image: url("../img/calc.png"); }
-.slider__menu-link_left .cred { width: 28px; height: 29px; background-image: url("../img/cred.png"); }
+.insurance__link-left { position: relative; width: 101px; height: 77px; float: left; }
+.insurance__link-left i { position: absolute; top: 24px; left: 36px; }
+.insurance__link-left .kasko { width: 26px; height: 29px; background-image: url("../img/kasko.png"); }
+.insurance__link-left .libre { width: 30px; height: 28px; background-image: url("../img/libre.png"); }
+.insurance__link-left .calc { width: 24px; height: 28px; background-image: url("../img/calc.png"); }
+.insurance__link-left .cred { width: 28px; height: 29px; background-image: url("../img/cred.png"); }
 
-.slider__menu-h3 { font-size: 17px; font-weight: bold; text-transform: uppercase; margin-top: 8px; line-height: 29px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.31); }
+.insurance__title { font-size: 17px; font-weight: bold; text-transform: uppercase; margin-top: 8px; line-height: 29px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.31); }
 
-.slider__menu-item { font-size: 15px; font-style: italic; line-height: 15px; }
+.insurance__item { font-size: 15px; font-style: italic; line-height: 15px; }
 
 .baner { position: relative; width: 925px; height: 110px; margin: 0 0 55px 30px; padding: 14px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-box-shadow: 0px 30px 30px -32px black; -webkit-box-shadow: 0px 30px 30px -32px black; box-shadow: 0px 30px 30px -32px black; }
 .baner:before { content: ""; position: absolute; top: 0; left: -17px; width: 0; height: 0; border-style: solid; border-width: 0 0 110px 17px; border-color: transparent transparent white transparent; }

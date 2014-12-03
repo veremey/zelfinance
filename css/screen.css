@@ -157,6 +157,9 @@ body em { font-weight: italic; }
 
 .skype_small { position: absolute; top: 2px; left: -20px; width: 12px; height: 11px; background-image: url("../img/skype_small.png"); }
 
+.aside { *zoom: 1; }
+.aside:after { content: " "; display: table; clear: both; }
+
 .main { background-image: url("../img/main_bg.png"); *zoom: 1; }
 .main > .out { padding: 30px; }
 .main:after { content: " "; display: table; clear: both; }

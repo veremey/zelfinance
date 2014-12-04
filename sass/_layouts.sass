@@ -213,7 +213,7 @@
 
 
 .content
-	width: 635px
+	width: 652px
 	float: left
 	margin-top: 30px
 	+clr
@@ -236,3 +236,34 @@
 .content__but+.green__line
 	@extend .green__line
 	z-index: 3
+.content__wrap
+	margin-top: 30px
+	+clr
+.question
+	max-height: 195px
+	-webkit-box-shadow: inset 0 -20px 10px 0px rgba(255,255,255,.5)
+	box-shadow: inset 0 -20px 10px 0px rgba(255,255,255,.5)
+.question__title a
+	color: #3375B1
+	font-size: 17px
+	line-height: 20px
+.question_user
+	float: left
+	margin-top: 10px
+	color: #75922E
+	border-bottom: 1px solid #75922E
+	&:hover
+		border-bottom: 1px solid transparent
+.question__date
+	display: block
+	margin: 10px 0 0 5px
+	color: #99A0A1
+.question__answer
+	margin-top: 16px
+	color: #474747
+	font-size: 15px
+	line-height: 20px
+.question__more
+	@extend .question_user
+	border-bottom-style: dashed
+	margin-bottom: 25px

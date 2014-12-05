@@ -248,9 +248,11 @@ body em { font-weight: italic; }
 .insurance__link:after { top: 76px; background-color: #6aa9d9; }
 .insurance__link:hover { background-color: #53aae4; }
 
-.insurance__link-right { float: right; width: 194px; color: white; }
+.insurance__shadow { position: absolute; bottom: 0; right: 30px; width: 230px; height: 49px; background-image: url("../img/ins__shadow.png"); z-index: 2; }
 
-.insurance__link-left { position: relative; width: 101px; height: 77px; float: left; }
+.insurance__link-right { position: relative; float: right; width: 194px; color: white; z-index: 4; }
+
+.insurance__link-left { position: relative; width: 101px; height: 77px; float: left; z-index: 4; }
 .insurance__link-left i { position: absolute; top: 24px; left: 36px; }
 .insurance__link-left .kasko { width: 26px; height: 29px; background-image: url("../img/kasko.png"); }
 .insurance__link-left .libre { width: 30px; height: 28px; background-image: url("../img/libre.png"); }

@@ -198,7 +198,7 @@ body em { font-weight: italic; }
 .question_user, .question__more { float: left; margin-top: 10px; color: #75922e; border-bottom: 1px solid #75922e; }
 .question_user:hover, .question__more:hover { border-bottom: 1px solid transparent; }
 
-.question__date { display: block; margin: 10px 0 0 5px; color: #99a0a1; }
+.question__date { display: inline-block; margin: 10px 0 0 5px; color: #99a0a1; }
 
 .question__answer { margin-top: 16px; color: #474747; font-size: 15px; line-height: 20px; }
 

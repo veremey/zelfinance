@@ -73,7 +73,7 @@ body em { font-weight: italic; }
 .header__user-item > .cab, .header__user-item > .mes { position: absolute; top: -2px; left: -32px; width: 22px; height: 16px; background-image: url("../img/h__cabin.png"); }
 .header__user-item > .mes { height: 21px; background-image: url("../img/h__newmassage.png"); text-align: center; }
 
-.header__exit { float: right; width: 60px; color: #5b5b5b; margin-top: 40px; line-height: 20px; text-align: center; font-size: 15px; font-weight: bold; border: 1px solid #5b5b5b; -webkit-border-radius: 3px; border-radius: 3px; }
+.header__exit { float: right; width: 60px; color: #5b5b5b; margin-top: 40px; line-height: 15px; text-align: center; font-size: 12px; padding-top: 5px; font-weight: bold; border: 1px solid #5b5b5b; -webkit-border-radius: 3px; border-radius: 3px; }
 
 .footer { position: relative; height: 87px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background-image: url("../img/f_bg.png"); *zoom: 1; }
 .footer:after { content: " "; display: table; clear: both; }
@@ -306,4 +306,4 @@ body em { font-weight: italic; }
 
 .romb { margin-bottom: 40px; }
 
-@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; }
+@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: local(èΞ), url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; }

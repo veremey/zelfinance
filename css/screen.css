@@ -104,9 +104,9 @@ body em { font-weight: italic; }
 
 .event__date { font-size: 13px; line-height: 20px; color: #99a0a1; }
 
-.event__title, .propose__title { display: inline; font-size: 17px; line-height: 18px; border-bottom: 1px solid black; color: black; }
+.event__title, .propose__title { display: inline; font-size: 17px; border-bottom: 1px solid black; color: black; }
 
-.event__item, .propose__item { position: relative; font-size: 15px; line-height: 20px; color: #474747; height: 60px; margin-top: 10px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+.event__item, .propose__item { position: relative; font-size: 15px; color: #474747; height: 60px; margin-top: 10px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 
 .event__all, .propose__all { display: inline-block; font-size: 17px; border-bottom: 1px solid #75922e; color: #75922e; margin-top: 12px; }
 
@@ -280,17 +280,19 @@ body em { font-weight: italic; }
 
 .strel__after { right: -37px; background-image: url("../img/st_r.png"); }
 
-.baner__company { position: relative; float: left; width: 160px; max-height: 83px; margin: 0 30px 0 40px; }
+.baner__company { position: relative; float: left; width: 170px; padding: 0 0 0 40px; }
 .baner__company:hover .baner__h4, .baner__company:hover .baner__propose, .baner__company:hover .baner__propose p { border-bottom: 1px solid transparent; -webkit-transition: all 0.15s; -moz-transition: all 0.15s; -ms-transition: all 0.15s; -o-transition: all 0.15s; transition: all 0.15s; }
 .baner__company:last-child { margin-right: 0; }
-.baner__company img { position: absolute; top: 0px; left: -45px; width: 35px; height: 36px; border: 1px solid #d1d3d4; }
+.baner__company img { position: absolute; top: 0px; left: 0px; width: 35px; height: 36px; border: 1px solid #d1d3d4; }
+
+.baner__company-wrap { display: block; margin-left: 5px; min-height: 83px; overflow: hidden; -ms-word-wrap: nowrap; word-wrap: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 
 .baner__title { margin-bottom: 10px; }
 
-.baner__h4 { position: relative; width: 155px; font-size: 15px; line-height: 15px; display: inline; color: #75922e; border-bottom: 1px solid #75922e; }
+.baner__h4 { position: relative; width: 155px; font-size: 15px; display: inline; color: #75922e; border-bottom: 1px solid #75922e; }
 
-.baner__propose { width: 165px; max-height: 46px; white-space: nowrap; font-size: 13px; line-height: 15px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
-.baner__propose p { display: inline; border-bottom: 1px solid #75922e; }
+.baner__propose { width: 165px; max-height: 51px; white-space: nowrap; font-size: 13px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+.baner__propose p { display: inline; border-bottom: 1px solid #75922e; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 
 .consultant { position: relative; width: 930px; margin: 0 0px 25px 30px; *zoom: 1; }
 .consultant:after { content: " "; display: table; clear: both; }
@@ -306,4 +308,4 @@ body em { font-weight: italic; }
 
 .romb { margin-bottom: 40px; }
 
-@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: local(èΞ), url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; }
+@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; }

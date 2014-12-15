@@ -247,6 +247,20 @@ body em { font-weight: italic; }
 .slider__spin { float: left; border: 5px solid white; }
 .slider__spin img { width: 675px; height: 298px; }
 
+.slider { z-index: 9; float: left; width: 685px; height: 300px; overflow: hidden; margin: 0 0 7px; position: relative; border-bottom: 5px solid white; }
+
+.slider ul, .slider li { padding: 0; margin: 0; list-style-type: none; }
+
+.slider ul { width: 9999px; }
+
+.slider ul li { list-style-type: none; float: left; width: 680px; height: 300px; }
+
+.slider .nav { position: absolute; left: 15px; bottom: 12px; }
+
+.slider .nav span { opacity: 0.9; background: white; margin: 0 8px 0 0; width: 16px; height: 16px; border-radius: 8px; cursor: pointer; overflow: hidden; display: block; float: left; box-shadow: 0 1px 2px black; }
+
+.slider .nav span.on { background: #2e9419; }
+
 .insurance { float: right; width: 295px; background-color: #7fc0eb; *zoom: 1; }
 .insurance:after { content: " "; display: table; clear: both; }
 

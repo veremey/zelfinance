@@ -243,23 +243,23 @@ body em { font-weight: italic; }
 .menu__item:hover { background-color: #92b244; }
 .menu__item:hover > .submenu { display: block; }
 
-.slider { width: 980px; height: 308px; margin-bottom: 50px; overflow: hidden; -moz-box-shadow: 0px 44px 100px -60px black; -webkit-box-shadow: 0px 44px 100px -60px black; box-shadow: 0px 44px 100px -60px black; }
-.slider__spin { float: left; border: 5px solid white; }
-.slider__spin img { width: 675px; height: 298px; }
+.slider { width: 980px; height: 310px; margin-bottom: 50px; overflow: hidden; -moz-box-shadow: 0px 44px 100px -60px black; -webkit-box-shadow: 0px 44px 100px -60px black; box-shadow: 0px 44px 100px -60px black; }
 
-.slider { z-index: 9; float: left; width: 685px; height: 300px; overflow: hidden; margin: 0 0 7px; position: relative; border-bottom: 5px solid white; }
+.slider__wrap { z-index: 9; width: 685px; height: 310px; overflow: hidden; float: left; position: relative; }
 
-.slider ul, .slider li { padding: 0; margin: 0; list-style-type: none; }
+.slider__wrap ul, .slider__wrap li { padding: 0; margin: 0; list-style-type: none; }
 
-.slider ul { width: 9999px; }
+.slider__wrap ul { width: 9999px; }
 
-.slider ul li { list-style-type: none; float: left; width: 680px; height: 300px; }
+.slider__wrap ul li { list-style-type: none; }
 
-.slider .nav { position: absolute; left: 15px; bottom: 12px; }
+.slider__wrap img { border: 5px solid white; }
 
-.slider .nav span { opacity: 0.9; background: white; margin: 0 8px 0 0; width: 16px; height: 16px; border-radius: 8px; cursor: pointer; overflow: hidden; display: block; float: left; box-shadow: 0 1px 2px black; }
+.slider__wrap .nav { position: absolute; left: 15px; bottom: 12px; }
 
-.slider .nav span.on { background: #2e9419; }
+.slider__wrap .nav span { opacity: 0.9; background: white; margin: 0 8px 0 0; width: 16px; height: 16px; border-radius: 8px; cursor: pointer; overflow: hidden; float: left; box-shadow: 0 1px 2px black; }
+
+.slider__wrap .nav span.on { background: #2e9419; }
 
 .insurance { float: right; width: 295px; background-color: #7fc0eb; *zoom: 1; }
 .insurance:after { content: " "; display: table; clear: both; }

@@ -225,6 +225,7 @@ body em { font-weight: italic; }
 .menu { position: relative; background-color: #abc765; border-bottom: 8px solid #92aa5a; *zoom: 1; }
 .menu:after { content: " "; display: table; clear: both; }
 .menu__item { position: relative; display: inline-block; }
+.menu__item .is-active { background-color: #92b244; }
 .menu__link, .submenu__link { display: block; font-size: 17px; color: white; line-height: 26px; padding: 19px 17px 9px 17px; }
 .menu__link:hover, .submenu__link:hover { background-color: #92b244; }
 .menu__link .home, .submenu__link .home { position: relative; display: inline-block; top: 3px; left: 2px; width: 25px; height: 19px; background-image: url("../img/home.png"); }

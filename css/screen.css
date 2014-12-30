@@ -34,7 +34,7 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { font-family: "PTSans", Arial, sans-serif; font-weight: normal; font-size: 13px; line-height: 1.33; }
+body { font-family: "PTSans", Arial, sans-serif; font-weight: normal; font-size: 13px; line-height: 1.33; min-width: 1049px; }
 body a { text-decoration: none; }
 body strong { font-weight: bold; }
 body em { font-weight: italic; }
@@ -87,7 +87,7 @@ body em { font-weight: italic; }
 .footer__link { color: #5b5b5b; font-size: 13px; border-bottom: 1px solid #5b5b5b; }
 .footer__link:hover { border-bottom: none; }
 
-.footer__copy { line-height: 85px; width: 160px; float: right; color: #7e898e; }
+.footer__copy { line-height: 85px; width: 163px; float: right; color: #7e898e; }
 .footer__copy strong { color: #75922e; }
 
 .l-container { *zoom: 1; }

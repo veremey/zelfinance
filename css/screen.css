@@ -45,7 +45,7 @@ body em { font-weight: italic; }
 .out:after { content: " "; display: table; clear: both; }
 
 .header { height: 135px; position: relative; color: #5b5b5b; }
-.header:after { content: ""; position: absolute; bottom: 0px; left: 0; right: 0; height: 3px; background-image: url(../img/h_zub.png); z-index: 7; }
+.header:after { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 3px; background-image: url(../img/h_zub.png); z-index: 7; }
 
 .header__logo { position: relative; float: left; *zoom: 1; }
 .header__logo:after { content: " "; display: table; clear: both; }
@@ -93,7 +93,7 @@ body em { font-weight: italic; }
 .l-container { *zoom: 1; }
 .l-container:after { content: " "; display: table; clear: both; }
 
-.event, .propose, .work { float: left; width: 296px; font-family: PTSans, sans-serif; }
+.event, .propose, .work { float: left; width: 296px; font-family: "PT Sans", sans-serif; }
 
 .propose { margin: 0 45px; }
 
@@ -323,4 +323,4 @@ body em { font-weight: italic; }
 
 .romb { margin-bottom: 40px; }
 
-@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; }
+@font-face { font-family: PTSans; src: url("../fonts/pt_sans-web-regular-webfont.eot"); src: url("../fonts/pt_sans-web-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../fonts/pt_sans-web-regular-webfont.woff") format("woff"), url("../fonts/pt_sans-web-regular-webfont.ttf") format("truetype"), url("../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular") format("svg"); font-weight: normal; font-style: normal; }

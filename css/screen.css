@@ -258,7 +258,7 @@ body em { font-weight: italic; }
 
 .slider__wrap ul li { list-style-type: none; }
 
-.slider__wrap img { border: 5px solid white; }
+.slider__wrap img { border: 5px solid white; width: 675px; height: 300px; }
 
 .slider__wrap .nav { position: absolute; left: 15px; bottom: 12px; }
 

@@ -85,10 +85,11 @@
 //SLIDER
 
 .slider
+	position: relative
 	width: 980px
 	height: 310px
 	margin-bottom: 50px
-	overflow: hidden
+	// overflow: hidden
 	+box-shadow(0px 44px 100px -60px #000)
 	// &__spin
 	// 	float: left
@@ -96,7 +97,15 @@
 	// 	img
 	// 		width: 675px
 	// 		height: 298px
-
+.big-slider__item
+	position: relative
+	width: 100%
+	height: 361px
+	+clr
+	img
+		position: absolute
+		top: 0
+		right: 0
 
 .slider__wrap
 	z-index: 9

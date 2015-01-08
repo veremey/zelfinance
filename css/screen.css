@@ -289,7 +289,7 @@ body em { font-weight: italic; }
 
 .insurance__item { font-size: 15px; font-style: italic; line-height: 15px; }
 
-.baner { position: relative; width: 925px; height: 110px; margin: 0 0 55px 30px; padding: 14px 0 12px 15px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-box-shadow: 0px 30px 30px -32px black; -webkit-box-shadow: 0px 30px 30px -32px black; box-shadow: 0px 30px 30px -32px black; }
+.baner { position: relative; width: 925px; height: 110px; margin: 0 0 55px 30px; color: #75922e; background-color: white; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-box-shadow: 0px 30px 30px -32px black; -webkit-box-shadow: 0px 30px 30px -32px black; box-shadow: 0px 30px 30px -32px black; }
 .baner:before { content: ""; position: absolute; top: 0; left: -17px; width: 0; height: 0; border-style: solid; border-width: 0 0 110px 17px; border-color: transparent transparent white transparent; }
 .baner:after { content: ""; position: absolute; top: 0; right: -17px; width: 0; height: 0; border-style: solid; border-width: 110px 17px 0 0; border-color: white transparent transparent transparent; }
 
@@ -299,7 +299,7 @@ body em { font-weight: italic; }
 
 .strel__after { right: -37px; background-image: url("../img/st_r.png"); }
 
-.baner__company { position: relative; float: left; width: 170px; padding-left: 40px; margin-right: 20px; }
+.baner__company { position: relative; float: left; width: 170px; margin: 15px 20px 0 5px; padding-left: 40px; }
 .baner__company:hover .baner__h4, .baner__company:hover .baner__propose, .baner__company:hover .baner__propose p { border-bottom: 1px solid transparent; -webkit-transition: all 0.15s; -moz-transition: all 0.15s; -ms-transition: all 0.15s; -o-transition: all 0.15s; transition: all 0.15s; }
 .baner__company:last-child { margin-right: 0; }
 .baner__company img { position: absolute; top: 0px; left: 0px; width: 35px; height: 36px; border: 1px solid #d1d3d4; }

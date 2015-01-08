@@ -74,7 +74,7 @@
 						<li class="big-slider__item js-big-slider-item"><img src="http://placekitten.com/675/675?image=n" alt=""></li>
 					</ul>
 					<div class="nav js-pager">
-						<span rel="0" class="on"></span>
+						<span rel="0" class="is-active"></span>
 						<span rel="1"></span>
 						<span rel="2"></span>
 						<span rel="3"></span>
@@ -112,85 +112,22 @@
 					</a>
 				</div>
 			</div> <!-- END SLIDER -->
-			<div class="baner">
-				<a href="#" class="strel__prev"></a>
-				<a href="#" class="strel__after"></a>
-				<div class="baner__company">
-				<a href="#" class="baner__company-wrap">
-					<img src="img/k2.png" alt="">
-					<div class="baner__title">
-					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
-					<div class="baner__propose">
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-					</div>
-					</a>
-				</div>
-				<div class="baner__company">
-				<a href="#" class="baner__company-wrap">
-					<img src="img/k2.png" alt="">
-					<div class="baner__title">
-					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
-					<div class="baner__propose">
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-					</div>
-					</a>
-				</div>
-				<div class="baner__company">
-				<a href="#" class="baner__company-wrap">
-					<img src="img/k2.png" alt="">
-					<div class="baner__title">
-					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
-					<div class="baner__propose">
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-					</div>
-					</a>
-				</div>
-				<div class="baner__company">
-				<a href="#" class="baner__company-wrap">
-					<img src="img/k2.png" alt="">
-					<div class="baner__title">
-					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
-					<div class="baner__propose">
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-					</div>
-					</a>
-				</div>
+			<div class="baner ">
+				<a href="#" class="strel__prev js-baner-slider-prev"></a>
+				<a href="#" class="strel__after js-baner-slider-next"></a>
+				<div class="baner__slide cycle-slideshow"
+						data-cycle-fx="scrollHorz"
+						data-cycle-speed="400"
+						data-cycle-timeout="2000"
+						data-cycle-prev=".js-baner-slider-prev"
+						data-cycle-next=".js-baner-slider-next"
+						data-cycle-slides=".js-baner-slider-item">
 
 
-			<!-- 	<a href="#" class="baner__company">
+			<div class="baner__wrap js-baner-slider-item" >
+				<div class="baner__company ">
+					<a href="#" class="baner__company-wrap ">
 					<img src="img/k2.png" alt="">
-					<div class="baner__title"> <h4 class="baner__h4"><strong>Длинное название <br> компании</strong></h4></div>
-					<div class="baner__propose">
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-						<p>Медицинское страхование,</p><br>
-						<p>Автострахование,</p><br>
-						<p>Страхование жизни,</p><br>
-					</div>
-				</a>
-				<a href="#" class="baner__company">
-				<img src="img/k2.png" alt="">
 					<div class="baner__title">
 					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
 					<div class="baner__propose">
@@ -201,11 +138,13 @@
 						<p>Автострахование,</p><br>
 						<p>Страхование жизни,</p><br>
 					</div>
-				</a>
-				<a href="#" class="baner__company">
-				<img src="img/k3.png" alt="">
-				<div class="baner__title">
-					<h4 class="baner__h4"><strong>Длинное название <br>компании</strong></h4><br></div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
 					<div class="baner__propose">
 						<p>Медицинское страхование,</p><br>
 						<p>Автострахование,</p><br>
@@ -214,18 +153,202 @@
 						<p>Автострахование,</p><br>
 						<p>Страхование жизни,</p><br>
 					</div>
-				</a>
- -->
-
-			</div> <!-- END baner -->
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+			</div>
+				<div class="baner__wrap js-baner-slider-item" >
+				<div class="baner__company ">
+					<a href="#" class="baner__company-wrap ">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="baner__wrap js-baner-slider-item" >
+				<div class="baner__company ">
+					<a href="#" class="baner__company-wrap ">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+				<div class="baner__company">
+					<a href="#" class="baner__company-wrap">
+					<img src="img/k2.png" alt="">
+					<div class="baner__title">
+					<h4 class="baner__h4"><strong>Название компании</strong></h4><br></div>
+					<div class="baner__propose">
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+						<p>Медицинское страхование,</p><br>
+						<p>Автострахование,</p><br>
+						<p>Страхование жизни,</p><br>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		</div> <!-- END baner -->
 			<div class="clear"></div>
 			<div class="consultant">
-				<a href="#" class="strel__prev"></a>
-				<a href="#" class="strel__after"></a>
-					<img class="consultant__img" src="img/kons.png" alt="">
-					<img class="consultant__img" src="img/kons.png" alt="">
-					<img class="consultant__img" src="img/kons.png" alt="">
-					<img class="consultant__img" src="img/kons.png" alt="">
+				<a href="#" class="strel__prev js-consultant-slider-prev"></a>
+				<a href="#" class="strel__after js-consultant-slider-next"></a>
+				<div class="consultant__slide cycle-slideshow"
+				 data-cycle-fx="scrollHorz"
+					data-cycle-speed="400"
+					data-cycle-timeout="6000"
+					data-cycle-prev=".js-consultant-slider-prev"
+					data-cycle-next=".js-consultant-slider-next"
+					data-cycle-slides=".js-consultant-slider-item">
+					<div class="consultant__wrap js-consultant-slider-item">
+						<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+					</div>
+					<div class="consultant__wrap js-consultant-slider-item">
+						<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+					</div>
+					<div class="consultant__wrap js-consultant-slider-item">
+						<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+					</div>
+					<div class="consultant__wrap js-consultant-slider-item">
+						<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+							<img class="consultant__img" src="img/kons.png" alt="">
+					</div>
+
+					</div>
 			</div> <!-- end consultant -->
 			<div class="consultant__all">
 				<a href="#">Все консультанты →</a>

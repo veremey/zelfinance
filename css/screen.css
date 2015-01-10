@@ -236,7 +236,7 @@ body em { font-weight: italic; }
 .green__line, .content__but + .green__line { position: absolute; top: 2px; left: 0; right: 0; height: 1px; background-color: #bed783; z-index: 99; }
 
 .submenu { display: none; position: absolute; top: 53px; border-bottom: 9px solid #829d42; z-index: 999; }
-.submenu__link { width: 257px; position: relative; line-height: 19px; background-color: #92b244; z-index: 3; }
+.submenu__link { width: 245px; position: relative; line-height: 19px; background-color: #92b244; z-index: 3; }
 .submenu__link:hover { background-color: #a8c465; }
 .submenu__link:before, .submenu__link:after { content: ""; position: absolute; top: 0px; left: 0; right: 0; height: 1px; background-color: #92aa5a; }
 .submenu__link:after { top: 1px; background-color: #a8c26b; }

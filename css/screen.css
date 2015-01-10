@@ -34,7 +34,7 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { font-family: "PTSans", Arial, sans-serif; font-weight: normal; font-size: 13px; line-height: 1.33; min-width: 1049px; }
+body { font-family: "PT Sans", Arial, sans-serif; font-weight: normal; font-size: 13px; line-height: 1.33; min-width: 1049px; }
 body a { text-decoration: none; }
 body strong { font-weight: bold; }
 body em { font-weight: italic; }

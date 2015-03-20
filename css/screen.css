@@ -295,7 +295,7 @@ body em { font-weight: italic; }
 
 .baner__h4 { position: relative; width: 155px; font-size: 15px; display: inline; color: #75922e; border-bottom: 1px solid #75922e; }
 
-.baner__propose { width: 165px; max-height: 51px; white-space: nowrap; font-size: 13px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+.baner__propose { width: 165px; max-height: 52px; white-space: nowrap; font-size: 13px; color: #75922e; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 .baner__propose p { display: inline; border-bottom: 1px solid #75922e; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 
 .consultant { position: relative; width: 930px; margin: 0 0px 25px 30px; *zoom: 1; }
